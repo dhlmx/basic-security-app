@@ -1,0 +1,13 @@
+<mat-toolbar color="gray" fxLayoutGap="8px">
+  <a mat-button routerLink="/admin/dashboard" routerLinkActive="active-link">Admin's Dashboard</a>
+  <a mat-button routerLink="/admin/inventory" routerLinkActive="active-link">Admin Inventory</a>
+  <a mat-button routerLink="/admin/users" routerLinkActive="active-link">Admin Users</a>
+  <span class="flex-spacer"></span>
+  <button mat-icon-button routerLink="/inventory" matTooltip="Inventory" aria-label="Inventory">
+    <mat-icon>list</mat-icon>
+  </button>
+  <button mat-icon-button routerLink="/pos" matTooltip="POS" arialabel="POS">
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
