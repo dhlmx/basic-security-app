@@ -16,6 +16,20 @@
   npx ng generate component modules/Home --module=app
   npx ng generate component modules/PageNotFound --module=app
 
+
+1. Authentication and uthorization
+  npm install jwt-decode fake-jwt-sign
+  npm install -D @types/jwt-decode
+
+
+
+
+
+
+
+
+
+
 1. <div>
     Logo icon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a>
     from <a href="https://ww.flaticon.com/" title="Flaticon">www.flaticon.com</a>
@@ -34,5 +48,9 @@
   https://material.angular.io/guide/theming
 
   https://realfavicongenerator.net
+
+  https://tools.ietf.org/html/rfc7519
+
+
 
 
